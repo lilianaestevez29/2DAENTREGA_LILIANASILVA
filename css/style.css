@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ******************* BODY *********************/
+body{
+    font-family: 'Inter', sans-serif;
+}
+/* #buscar{
+    width: 60rem; 
+    height: 2rem;   
+   } */
+/* ******************* HEADER *********************/
+
+header{
+    border: #b484e1 15px solid;
+}
+
+.logotipo{
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+}
+.encabezado{
+    background-color: #625cd3;   
+}
+
+/* ******************* MAIN *********************/
+                     /* Inicio */
+.texto{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;   
+    color: blueviolet;
+    text-align: center;
+    
+}
+
+.banner p{
+    color: rgb(117, 117, 218);
+    padding-top: 50px;
+} 
+
+.primera{
+    border-radius: 30px;
+    margin: 20px;
+    width: 20rem;
+    height: 20rem;
+}
+.segunda{
+    border-radius: 30px;
+    margin: 20px;
+    width: 20rem;
+    height: 20rem;
+}
+.tercera{
+    border-radius: 30px;
+    margin: 20px;
+    width: 20rem;
+    height: 20rem;
+}
+.video{
+    color: rgb(148, 148, 237);
+}
+main{
+    background-color: rgb(9, 9, 9);
+    padding: 30px;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    border-radius: 20px;
+    padding: 3px;
+}
+nav ul{
+    margin: 50px 100px;
+    border-radius: 2px;
+}
+nav ul li img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+    display: flex;
+   
+    
+}
+a{
+    text-decoration: none;
+    color: #9869e8;
+    font-size: 20px;
+    
+    
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button{
+    background-color: black;
+    
+}
+
+                    /* Productos */
+.producto {
+    display: flex;  
+    flex-wrap: wrap;     
+}
+
+.producto img{
+    border-radius: 20px;
+    width: 25em;
+    height: 20em;
+   
+}
+
+.producto h3{
+    color: bisque;
+    margin-top: 80px;
+    width: 80%;
+}
+.producto p{
+    color: rgb(242, 134, 237);
+    line-height: 30px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    text-align: justify;
+    width: 80%;
+    display: flex;
+    
+}
+
+                    /* Nosotros */
+.nosotros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ h1{
+    color: #b484e1;
+    margin-top: 15px;
+    padding-left: 30px;
+    text-align: justify;
+ } 
+.nosotros div h3{
+     color: bisque;
+     margin-top: 50px;
+ }
+
+.nosotros div p{
+     color: rgb(234, 123, 240);
+     line-height: 20px;
+     margin: 10px;
+     text-align: justify;
+     
+ }
+.nosotros .column-2 {
+    padding-top: 60px; 
+}
+.nosotros img{
+    border-radius: 30px;
+    margin: 20px;
+    width: 20rem;
+    height: 20rem;
+}
+
+                     /* Contacto */     
+.contacto{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+    
+    
+}
+.contacto img{
+    border-radius: 20px;
+    width: 7rem;
+    height: 5rem;
+}
+.formu{
+    display: flex;
+    align-items: center;
+    
+
+    /* width: 50rem; */
+}
+#descrip, [placeholder]{
+    color: #ffffffe8;
+    font-size: 18px;   
+    padding: 16px;
+}
+#nombre, #correo, #dni, #pass, #fecha, #descrip, #telefono{
+    border: none;
+    border-radius: 20px;
+    margin: 15px 23px 20px;
+    height: 3rem;
+    width: 50rem;
+    
+}
+#correo{
+    width: 30rem; 
+}
+#dni, #pass, #fecha, #descrip, #telefono{
+    width: 10rem;
+    height: 20%;
+}
+#descrip{
+    height: 200px;
+    width: 60rem;
+}
+.escoge{
+    display: flex;
+    flex-direction: column;   
+}
+input[type=checkbox], [type=radio]{
+    margin: 7px;
+    height: 20px;
+    width: 24px;
+}
+legend, label, .pro, .tipo{
+    color: #9869e8;
+}
+                        /* Promociones*/ 
+.padre{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.sect1, .sect2, .sect3{
+    color: #ed79d0;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+.sect1 img{
+    border-radius: 20px;
+    margin: 5px;
+    width: 12rem;
+    height: 10rem;
+}
+.sect2 img{
+    border-radius: 20px;
+    margin: 5px;
+    width: 12rem;
+    height: 10rem;
+}
+.sect3 img{
+    border-radius: 20px;
+    margin: 5px;
+    width: 12rem;
+    height: 10rem;
+}
+.sect1 h3{
+    color: #f184d8;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.sect2 h3{
+    color: #f184d8;
+    margin-top: 10px;
+    font-size: 18px;
+}.sect3 h3{
+    color: #f184d8;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.sect1 p{
+    color: bisque;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 8px;
+    text-align: justify;
+}                  
+.sect2 p{
+    color: bisque;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 8px;
+    text-align: justify;
+} 
+.sect3 p{
+    color: bisque;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 8px;
+    text-align: justify;
+} 
+.descrip{
+    color: #9869e8";
+}
+
+/*******************************************/
+
+
+
+/* ******************* FOOTER *********************/
+footer{
+    background-color: #D9D9D9;
+    
+}
+.letra-chica{
+    
+    text-align: right;
+    font-size: 10px;
+    padding: 1rem;
+    
+}
+/* aplicando @media */
+/* @media screen and (min-width: ) {
+    
+} */
+
+@media screen and (max-width: 480px){
+    .body{
+        background: red;
+    }
+    nav ul li img{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 100%;
+        font-size: 18px;
+    }   
+    /* legend{
+        width: 3px;
+        height: 3px;
+        display: flex;
+    } */
+
+
+}
