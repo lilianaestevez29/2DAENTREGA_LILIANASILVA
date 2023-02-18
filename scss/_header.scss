@@ -1,0 +1,25 @@
+
+header{
+       border: $rosa-fondo 15px solid;
+   .logotipo{
+       width: 100px;
+       height: 90px;
+       border-radius: 10px;
+   }
+   .encabezado{
+       background-color: $rosa-fondo;   
+   }
+   .nav-link{
+   color: $rosa-cuerpo;
+   margin-top: 50px;
+   margin-left: 50px;
+        &:hover{
+            color: $rosa-fondo;
+            background-color: $rosa-cuerpo;
+            border-radius: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 2px;
+        }
+   }
+}

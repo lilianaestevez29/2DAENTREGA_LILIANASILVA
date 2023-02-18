@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ******************* BODY *********************/
+/* body{
+    font-family: 'Inter', sans-serif;
+} */
+/* ******************* HEADER *********************/
+
+/* header{
+    border: #432C7A 15px solid;
+}
+
+.logotipo{
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+}
+.encabezado{
+    background-color: #432C7A;   
+}
+
+.nav-link{
+    color: #FCE2DB;
+} */
+
+
+/* ******************* MAIN *********************/
+
+/* main{
+    background-color: #FCE2DB;
+    padding: 30px;
+    text-align: center;
+} */
+
+/* ******BANNER****** */
+/* .banner h1{
+    display: flex;
+    flex-direction: column;   
+    text-align: center;
+    color: #432C7A;
+    font-weight: bold;
+} 
+.banner img{
+    width: 60vw;
+    height: 60vh;
+    border-radius: 30px;
+}
+.banner p{
+    font-size: 18px;
+    color: #432C7A;
+    text-align: justify;
+    padding-top: 30px;
+} */
+/* ******************** * menu***/ 
+
+/* li{
+    font-weight: bold;
+    list-style-type: none;
+    border-radius: 20px;
+    padding: 3px;
+} */
+/* nav ul{
+    margin: 50px 100px;
+    border-radius: 2px;
+}
+nav ul li img{
+    width: 9rem;
+    height: 7rem;
+    border-radius: 50px;
+    display: flex;   
+} */
+/* a{
+    text-decoration: none;
+    color: #432C7A;
+    font-size: 20px; 
+} */
+/* .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 2px;
+} */
+
+
+
+/* estilo original de section video */
+
+/* .video h4{
+    color: #432C7A;
+    font-weight: bold;
+}
+iframe{
+    width: 60vw;
+    height: 60vh;
+} */
+/* 
+button{
+    margin-top: 20px;
+    background-color: #432C7A;
+    padding: 5px 30px;
+    border-radius: 25px;  
+}
+button a{
+    color: #FCE2DB;
+} */
+
+                    /* Productos */
+/* .producto {
+    display: flex;  
+    flex-wrap: wrap; 
+    justify-content: center;    
+}
+.producto img{
+    border-radius: 20px;
+    width: 60vw;
+}
+
+.producto h3{
+    color: #432C7A;
+    font-weight: bold;
+    margin-top: 80px;
+    text-align: center;
+}
+.producto p{
+    color: #432C7A;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 100px;
+    text-align: justify;
+    display: flex;   
+} */
+
+                    /* Nosotros */
+/* .nosotros{
+    display: flex;
+    flex-direction: row;
+}
+.nosotros, h1, h3, p{
+    color: #432C7A;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.nosotros, h3, p{
+    margin: 1em;
+}
+ h1{
+    font-weight: bold;
+    padding-left: 30px;
+    text-align: justify;
+ } 
+
+
+.nosotros div p{
+     line-height: 30px;
+     
+     text-align: justify;
+     
+ }
+.nosotros .column-2 {
+    padding-top: 60px; 
+}
+.nosotros img{
+    border-radius: 30px;
+    margin: 20px;
+    width: 20rem;
+    height: 20rem;
+} */
+
+                     /* Contacto */     
+/* .contacto{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;  
+}
+.contacto img{
+    border-radius: 20px;
+    width: 7rem;
+    height: 5rem;
+}
+.formu{
+    display: flex;
+    align-items: center;
+   
+}
+#descrip, [placeholder]{
+    color: #ffffffe8;
+    font-size: 18px;   
+    padding: 16px;
+}
+#nombre, #correo, #dni, #pass, #fecha, #descrip, #telefono{
+    border: none;
+    border-radius: 20px;
+    margin: 15px 23px 20px;
+    height: 8vh;
+    width: 50vw; 
+}
+#correo{
+    width: 30vw; 
+}
+#dni, #pass, #fecha, #descrip, #telefono{
+    height: 8vh;
+    width: 30vw;
+}
+#descrip{
+    height: 20vh;
+    width: 60vw;
+}
+.escoge{
+    display: flex;
+    flex-direction: column;   
+}
+input[type=checkbox], [type=radio]{
+    margin: 7px;
+    height: 5vh;
+    width: 5vw;
+}
+legend, label, .pro, .tipo{
+    color: #432C7A;
+} */
+
+
+                    /* Promociones*/ 
+/* .promo{
+    display: flex;
+    flex-direction: column;
+}
+.sect1, .sect2, .sect3{
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+}    
+.promo img{
+    border-radius: 20px;
+    width: 10vw;
+    height: 20vh;  
+}
+.promo h3{
+    color: #432C7A;
+    font-size: 18px;
+    width: 20vw;
+}
+.promo p{
+    color: #432C7A;
+    line-height: 18px;
+    margin: 8px;
+    text-align: justify;
+    width: 15vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+}                   */
+
+/*******************************************/
+
+
+
+/* ******************* FOOTER *********************/
+/* footer{
+    background-color: #432C7A;
+    
+}
+.letra-chica{
+    color: #FCE2DB;
+    text-align: right;
+    font-size: 16px;
+    padding: 1rem;
+    
+} */
+/* aplicando @media */
+/* @media screen and (min-width: ) {
+    
+} */
+
+@media screen and (max-width: 480px){
+   
+    /* nav ul li img{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 100%;
+    } */
+        /* inicio banner */
+        .banner img{
+            width: 80vw;
+            height: 20rem;
+        }
+        /* promociones */
+        .sect1, .sect2, .sect3{
+            font-size: 16px;
+            display: flex;
+            flex-direction: column;
+        }
+        .padre img{
+            width: 50vw;
+            height: 30vh;
+            margin-left: 80px;
+        }
+        .padre p{
+            line-height: 25px;
+            width: 80vw;
+            height: 20vh;
+            font-size: 16px;
+        }
+        .padre h3{
+            color: #432C7A;
+            font-size: 20px;
+            font-weight: bold;
+            width: 80vw;
+        }
+        
+#nombre, #correo, #dni, #pass, #fecha, #descrip, #telefono{
+    height: 5vh;
+    width: 80vw;
+    }
+#correo{
+    width: 70vw; 
+}
+#dni, #pass, #fecha, #descrip, #telefono{
+    height: 5vh;
+    width: 60vw;
+}
+#descrip{
+    height: 20vh;
+    width: 80vw;
+}
+.escoge{
+    display: flex;
+    flex-direction: row-reverse;   
+}
+input[type=checkbox], [type=radio]{
+    margin: 7px;
+    height: 5vh;
+    width: 5vw;
+}
+           
+}

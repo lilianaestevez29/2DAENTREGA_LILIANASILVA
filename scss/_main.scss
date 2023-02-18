@@ -1,0 +1,419 @@
+main{
+    // Este h1 es de Prducto-Nosotros-Promociones-Contacto
+    h1{
+        display: flex;
+        flex-direction: column;   
+       
+        color: $rosa-fondo;
+        font-weight: bold;
+        margin: 30px;
+    }
+
+    .banner{
+        // lo que buscas!lo tenemos!
+        h1{
+        display: flex;
+        flex-direction: column;   
+        text-align: center;
+        color: $rosa-fondo;
+        font-weight: bold;
+        
+    }
+        img{
+            width: 80vw;
+            height: 80vh;
+            border-radius: 30px;
+            
+        }
+        p{
+            margin: 20px;
+            font-size: 18px;
+            color: $rosa-fondo;
+            text-align: center;
+            padding-top: 30px; 
+            
+        }
+    }
+
+
+
+
+
+    // menu de navegacion del body
+    .navbar{
+        
+        
+        .menu{
+            margin-left: 110px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 30px;
+            
+        }
+        li{
+            font-weight: bold;
+            list-style-type: none;
+            border-radius: 20px;
+            
+        }
+        img{
+            border-radius: 40px;
+            width: 12vw;
+            height: 20vh;       
+            display: flex;
+        }
+        
+        a{
+            text-decoration: none;
+            color: $rosa-fondo;
+            font-size: 20px;
+            display: flex;
+            margin-inline: 30px;
+            
+        }
+        .ini{
+            margin-left: 50px;
+        }
+        .promo{
+            margin-left: 12px;
+        }
+    }
+
+
+    // section video 
+    .video h4{
+        color: #432C7A;
+        font-weight: bold;
+        text-align: center;
+        padding: 50px;
+    }
+    iframe{
+        width: 90vw;
+        height: 70vh;
+        margin-left: 50px;
+    }
+    .boton{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    button{
+        margin-top: 20px;
+        background-color: #432C7A;
+        padding: 7px 30px;
+        border-radius: 20px; 
+        a{
+            text-decoration: none;
+            color: #FCE2DB;
+        }
+    }
+
+//Icono de Whatsapp
+    div{
+        display: flex;
+        justify-content: end;
+        margin-right: 30px;
+
+        a{
+            text-decoration: none;
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+            border-radius: 50%;
+            color: rgb(62, 194, 121);
+            font-size: 80px;
+            width: 85px;
+            height: 80px;
+            
+        }
+    }
+
+
+
+    // PRODUCTOS
+    .producto {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        color: $rosa-fondo;
+        
+        img{
+           margin: 10px;
+            border-radius: 20px;
+            width: 50vw;
+            height: 70vh;
+        }   padding: 20px;
+
+        .titulo{
+            display: flex;
+            justify-content: column;
+        }
+        h3{
+            font-weight: bold;
+            margin-top: 25%;
+            text-align: center;
+            color: $fucsia-deslumbra;
+        }
+        p{
+
+            font-weight:bold;
+            line-height: 30px;
+           
+            margin: 20px;
+            text-align: justify;
+            display: flex;   
+        }
+    }
+
+
+    // NOSOTROS
+
+    .nosotros{
+        display: flex;
+        flex-direction: column;
+        color: $rosa-fondo;
+        // flex-wrap: wrap;
+
+        .texto{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+           
+
+            p{
+                font-weight: bold;
+                line-height: 30px;
+                width: 70vw;
+                height: 50vh;
+                margin-left: 10px;
+                text-align: justify;
+                display: flex;   
+            }
+        }
+       
+    }
+
+    
+    // PROMOCIONES
+    .promo {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        
+        
+        .prom1, .prom2, .prom3{
+            // align-items:flex-start;
+            color: $rosa-fondo;
+            font-size: 16px;
+            display: flex;
+           
+            flex-direction: row;
+        
+        }    
+        img{
+            border-radius: 20px;
+            width: 12vw;
+            height: 30vh; 
+            
+        }
+      
+
+        p{
+            font-size: 16px;
+            line-height: 18px;
+            margin: 8px;
+            text-align: justify;
+            width: 15vw;
+            height: 20vh;
+            display: flex;
+            flex-direction: row;
+           
+        }
+    }
+
+    // CONTACTO
+    .contacto{
+        display: flex;
+        justify-content: space-between;
+        gap: 5%;
+        margin: 10px 30px 0px 0px;
+        
+        img{
+            border-radius: 20px;
+            width: 7rem;
+            height: 5rem;
+        }
+
+        }
+        .formu{
+            display: flex;
+            margin-left: 10%;
+            color: $rosa-fondo;
+        }
+        legend{
+            text-align: center;
+        }
+            
+            
+        #descrip, [placeholder]{
+        font-size: 18px;   
+        padding: 16px;
+        }
+        #nombre, #correo, #dni, #pass, #fecha, #descrip, #telefono{
+            border: none;
+            border-radius: 20px;
+            margin: 15px 23px 20px;
+            height: 8vh;
+            width: 62vw; 
+        }
+        #correo{
+            width: 30vw; 
+        }
+        #dni, #pass, #fecha, #descrip, #telefono{
+            height: 8vh;
+            width: 31vw;
+        }
+        #descrip{
+            height: 30vh;
+            width: 75vw;
+        }
+        .escoger{
+            display: flex;
+            flex-direction: column;
+            margin-left: 35%;
+        }
+        h3{
+            margin: 3%;
+        }
+        input[type=checkbox], [type=radio]{
+            margin: 7px;
+            height: 5vh;
+            width: 5vw;
+        }
+        
+    .boton{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    button{
+        margin-top: 20px;
+        background-color: #432C7A;
+        padding: 7px 30px;
+        border-radius: 20px; 
+        a{
+            text-decoration: none;
+            color: #FCE2DB;
+        }
+    }
+      
+
+
+
+
+/*==============================================*/
+
+
+    @media screen and (max-width: 576px){
+   
+            /* INICIO */
+        .banner {
+            img{
+                margin: 0% 10%;
+                width: 80vw;
+                height: 40vh;
+            }
+            p{
+                margin: 10%;
+            }
+        } 
+        .navbar{
+            .menu{
+                flex-direction: column;
+                margin-left: 90%;
+            }
+            img{
+                width: 25vw;
+            }
+            
+        }
+        .video {
+            iframe{
+                width: 83vw;
+                height: 50vh;
+                margin-right: 50px;
+            }
+        }
+
+
+             /* PRODUCTO */
+
+        .producto {
+        flex-direction: column;
+                 
+            img{
+                margin-left: 10%;
+                width: 80vw;
+                height: 50vh;
+            }
+           
+            p{
+                padding: 10%;  
+            }
+        }
+
+
+            /* NOSOTROS */
+        .nosotros{
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 100%;
+            p{
+                margin: 10%;
+                    
+            }
+            .column-1 {
+            
+                width: 100vw;
+            }
+        }
+
+
+
+            /* PROMOCIONES */
+        .promo{
+                
+            .prom1, .prom2, .prom3{
+                flex-direction: column;
+                align-items: center;
+            }    
+            img{
+                width: 50vw;
+                height: 30vh;  
+            }
+            h3{
+                width: 35vw;
+            }
+            p{
+                font-size: 16px;
+                line-height: 20px;
+                width: 50vw;
+            }   
+        }
+        
+         /*CONTACTO*/   
+            
+            #nombre, #dni, #pass, #correo, #fecha, #descrip, #telefono{
+                width: 80vw;
+            }
+            #descrip{
+                height: 30vh;
+                width: 80vw;
+            }
+            .escoger{
+                margin-right: 20%;
+            }
+            
+    }
+
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+// @import "mediaquery";
+
+$rosa-fondo: #432C7A;
+$rosa-cuerpo: #FCE2DB;
+$form-descrip: #ffffffe8;
+$fucsia-deslumbra: #dc2be2;
+
+@import "body";
+@import "header";
+@import "main";
+@import "footer";
+

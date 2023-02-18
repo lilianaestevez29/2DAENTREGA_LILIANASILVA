@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color:$rosa-fondo;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .letra-chica{
+        color: $rosa-cuerpo;
+        font-size: 14px;
+        margin: 0px 40px 0px 0px;
+    }
+    .redes{
+       min-width: 200px;
+       display: flex;
+       justify-content: space-around;
+
+       a{
+        background-color: $rosa-cuerpo;
+        border-radius: 50%;
+        color: $rosa-fondo;
+        font-size: 23px;
+        line-height: 30px;
+        text-align: center;
+        text-decoration: none;
+        transition: all .4s ease-in-out;
+        width: 30px;
+        height: 30px;
+       }
+       :hover{
+        background-color: $rosa-fondo;
+        color: $rosa-cuerpo;
+        font-size: 30px;
+     
+       }
+    }
+}
