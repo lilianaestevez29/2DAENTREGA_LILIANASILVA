@@ -147,7 +147,7 @@ main {
         font-weight: bold;
         line-height: 30px;
         width: 70vw;
-        height: 50vh;
+        height: 100%;
         margin-left: 10px;
         text-align: justify;
         display: flex; }
@@ -262,9 +262,8 @@ main {
         flex-wrap: wrap;
         height: 100%; }
         main .nosotros p {
-          margin: 10%; }
-        main .nosotros .column-1 {
-          width: 100vw; }
+          margin: 20px;
+          width: 80vw; }
       main .promo .prom1, main .promo .prom2, main .promo .prom3 {
         flex-direction: column;
         align-items: center; }
